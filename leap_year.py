@@ -5,12 +5,12 @@ def leap_year():
     	valor = "bisiesto"
 	
     elif año % 100 == 0:
-	    valor = "no bisiesto"
+	    valor = "no es bisiesto"
 
     elif año % 4 == 0:
-	    valor = "bisiesto"
+	    valor = "es bisiesto"
 
     else: 
 	    valor = "no bisiesto"
 
-    print(f'El año {año} es {valor}')
+    print(f'El año {año} {valor}')
