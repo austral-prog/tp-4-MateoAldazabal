@@ -11,6 +11,6 @@ def leap_year():
 	    valor = "es bisiesto"
 
     else: 
-	    valor = "no bisiesto"
+	    valor = "no es bisiesto"
 
     print(f'El año {año} {valor}')
