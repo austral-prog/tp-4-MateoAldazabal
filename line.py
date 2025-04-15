@@ -22,4 +22,4 @@ def line():
 
 
     Distancia = math.sqrt((X1 - X2)**2 + (Y1 - Y2)**2)
-    print(f'La distancia entre ellos es: {Distancia}')
+    print(f'\nLa distancia entre ellos es: {Distancia}')
