@@ -2,7 +2,7 @@ def leap_year():
     año = int(input("Ingrese un año: "))
 
     if año % 400 == 0:
-    	valor = "bisiesto"
+    	valor = "es bisiesto"
 	
     elif año % 100 == 0:
 	    valor = "no es bisiesto"
